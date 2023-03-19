@@ -1,0 +1,122 @@
+.header{
+    position: relative;
+}
+.header img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.HeaderImgOverlay ,
+.SecondHeaderOve{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.3;
+}
+.HeaderContent{
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #000;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 10px 10px 10px -10px
+    rgba(225, 6, 6, 0.4),
+    inset 10px 10px 10px -10px
+    rgba(253, 2, 2, 0.7) ;
+}
+.HeaderContent h6{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+.HeaderContent h6 span {
+    font-size: 62px;
+    color: var(--main);
+}
+.HeaderContent p{
+    margin: 10px auto;
+}
+
+/* Details Section Start */
+.details_home {
+    margin-top: 100px;
+}
+.details_home .col-sm-6 h6{
+    font-size: 30px;
+    font-weight: 600;
+}
+.details_home .col-sm-6 h5{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 20px auto;
+}
+.details_home .col-sm-6 h5 span{
+    color: var(--main);
+    font-weight: 600;
+    cursor: pointer;
+}
+.details_home .col-sm-6 h5 span:hover {
+    text-decoration: underline;
+}
+/* Details second */
+.details_home_second{
+    background-color: #000;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+.details_home_second .box{
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 10px 10px 10px -10px
+    rgba(225, 6, 6, 0.4),
+    inset 10px 10px 10px -10px
+    rgba(253, 2, 2, 0.7) ;
+}
+.details_home_second .box:hover {
+    -o-transform: scale(1.07);  
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.details_home_second .mid{
+    margin-top: 50px;
+}
+.details_home_second h6{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.details_home_second p{
+    font-size: 12px;
+}
+/* Details Section End */
+
+/* Second Header */
+.second_header{
+    position: relative;
+    margin-bottom: 100px;
+}
+.second_header img{
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
+.SecondHeaderContent{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+}
+.SecondHeaderContent h6{
+    font-size: 60px;
+    font-weight: 600;
+}
