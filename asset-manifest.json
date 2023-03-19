@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/otocar1/static/css/main.997099fc.css",
+    "main.js": "/otocar1/static/js/main.5ae35e7d.js",
+    "static/media/image4.png": "/otocar1/static/media/image4.ecfb9ac1bf7b5ef615a6.png",
+    "static/media/image9.jpg": "/otocar1/static/media/image9.4cd97469474175a97a63.jpg",
+    "static/media/image10.jpg": "/otocar1/static/media/image10.ed96ff21726e81c10f40.jpg",
+    "static/media/image5.png": "/otocar1/static/media/image5.d177a4fe9e2002ddb24d.png",
+    "index.html": "/otocar1/index.html",
+    "main.997099fc.css.map": "/otocar1/static/css/main.997099fc.css.map",
+    "main.5ae35e7d.js.map": "/otocar1/static/js/main.5ae35e7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.997099fc.css",
+    "static/js/main.5ae35e7d.js"
+  ]
+}
